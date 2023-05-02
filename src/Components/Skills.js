@@ -43,19 +43,19 @@ export const Skills = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <Carousel responsive={responsive} infinite={true} className='skills-slider'>
                 <div className='item'>
-                    <img src={} alt="Image" />
+                    <img src={meter1} alt="Image" />
                     <h5> Web Development</h5>
                 </div>
                 <div className='item'>
-                    <img src={} alt="Image" />
+                    <img src={meter2} alt="Image" />
                     <h5> DSA Enthusiast</h5>
                 </div>
                 <div className='item'>
-                    <img src={} alt="Image" />
+                    <img src={meter3} alt="Image" />
                     <h5> Content Writer</h5>
                 </div>
                 <div className='item'>
-                    <img src={} alt="Image" />
+                    <img src={meter4} alt="Image" />
                     <h5> ML Newbie</h5>
                 </div>
               </Carousel>
