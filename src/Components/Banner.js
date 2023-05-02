@@ -3,6 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
+    const [loopNum, setLoopNum] = useState(0);
+    const[isDeleting,seIsDeleting]= useState(false);
+    const toRotate = ["Web Developer" , "DSA enthusiast"];
+    const [text,setText]= useState('');
+    const period=2000; //time b/w each extra letter being typed out
     return(
         <section className="banner" id ="home">
             <Container>
