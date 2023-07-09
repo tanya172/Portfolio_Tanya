@@ -34,8 +34,8 @@ export const Contact = () => {
             <form>
                 <Row>
                     <Col sm={6} className="px-1">
-                        <input type = "text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName',e.target.value)}
-                    </Col>
+                        <input type = "text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName',e.target.value)}/>
+                        </Col>
                 </Row>
             </form>
           </Col>
